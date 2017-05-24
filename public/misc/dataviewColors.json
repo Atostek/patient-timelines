@@ -1,0 +1,310 @@
+[
+  {
+    "name": "SIS",
+    "color": "247,127,0"
+  },
+  {
+    "name": "KUN",
+    "color": "70,16,255"
+  },
+  {
+    "name": "RTG",
+    "color": "0,183,96"
+  },
+  {
+    "name": "LAB",
+    "color": "61,51,43"
+  },
+  {
+    "name": "KLF",
+    "color": "0,48,73"
+  },
+  {
+    "name": "PAT",
+    "color": "144,144,144"
+  },
+  {
+    "name": "ANE",
+    "color": "204,45,35"
+  },
+  {
+    "name": "SOS",
+    "color": "209,0,86"
+  },
+  {
+    "name": "RAV",
+    "color": "201,201,201"
+  },
+  {
+    "name": "PSL",
+    "color": "86,89,89"
+  },
+  {
+    "name": "HOKE",
+    "color": "255,0,255"
+  },
+  {
+    "name": "LÄH",
+    "color": "176,255,0"
+  },
+  {
+    "name": "PAL",
+    "color": "176,255,126"
+  },
+  {
+    "name": "LÄÄ",
+    "color": "0,255,0"
+  },
+  {
+    "name": "B2",
+    "color": "252,204,17"
+  },
+  {
+    "name": "C",
+    "color": "204,0,255"
+  },
+  {
+    "name": "D",
+    "color": "102,0,255"
+  },
+  {
+    "name": "FL",
+    "color": "87,189,255"
+  },
+  {
+    "name": "MATKA",
+    "color": "87,157,255"
+  },
+  {
+    "name": "NT",
+    "color": "0,114,114"
+  },
+  {
+    "name": "NÄK",
+    "color": "124,45,35"
+  },
+  {
+    "name": "ABORT",
+    "color": "114,94,38"
+  },
+  {
+    "name": "TAH",
+    "color": "249,63,38"
+  },
+  {
+    "name": "PUH",
+    "color": "252,204,17"
+  },
+  {
+    "name": "TOI",
+    "color": "204,0,255"
+  },
+  {
+    "name": "FYST",
+    "color": "102,0,255"
+  },
+  {
+    "name": "NPSY",
+    "color": "96,94,17"
+  },
+  {
+    "name": "NEUVO",
+    "color": "87,189,255"
+  },
+  {
+    "name": "OPI",
+    "color": "87,157,255"
+  },
+  {
+    "name": "KNF",
+    "color": "0,114,114"
+  },
+  {
+    "name": "ERAS",
+    "color": "0,145,201"
+  },
+  {
+    "name": "PAIK",
+    "color": "132,33,107"
+  },
+  {
+    "name": "LREA",
+    "color": "252,252,17"
+  },
+  {
+    "name": "REK",
+    "color": "252,163,17"
+  },
+  {
+    "name": "KIR",
+    "color": "124,45,35"
+  },
+  {
+    "name": "RKT",
+    "color": "237,122,158"
+  },
+  {
+    "name": "KUO28",
+    "color": "175,137,112"
+  },
+  {
+    "name": "NKIR",
+    "color": "114,94,38"
+  },
+  {
+    "name": "HEN",
+    "color": "247,127,0"
+  },
+  {
+    "name": "GYN",
+    "color": "249,63,38"
+  },
+  {
+    "name": "LASY",
+    "color": "255,97,97"
+  },
+  {
+    "name": "TAA",
+    "color": "96,94,17"
+  },
+  {
+    "name": "TAB",
+    "color": "96,94,17"
+  },
+  {
+    "name": "SUPA",
+    "color": "0,197,42"
+  },
+  {
+    "name": "PHVAR",
+    "color": "0,197,42"
+  },
+  {
+    "name": "ALOKI",
+    "color": "76,206,209"
+  },
+  {
+    "name": "HK",
+    "color": "170,186,10"
+  },
+  {
+    "name": "LILM",
+    "color": "252,140,153"
+  },
+  {
+    "name": "HOSU",
+    "color": "7,109,255"
+  },
+  {
+    "name": "SUO",
+    "color": "0,32,255"
+  },
+  {
+    "name": "KIE",
+    "color": "158,107,5"
+  },
+  {
+    "name": "INFO",
+    "color": "7,109,84"
+  },
+  {
+    "name": "KLÄÄ",
+    "color": "0,255,0"
+  },
+  {
+    "name": "OPER",
+    "color": "140,73,35"
+  },
+  {
+    "name": "HAM",
+    "color": "237,122,158"
+  },
+  {
+    "name": "HAMK",
+    "color": "237,122,158"
+  },
+  {
+    "name": "OSVA",
+    "color": "0,32,255"
+  },
+  {
+    "name": "RKIE",
+    "color": "158,107,5"
+  },
+  {
+    "name": "B",
+    "color": "252,204,17"
+  },
+  {
+    "name": "LAS",
+    "color": "0,145,201"
+  },
+  {
+    "name": "SIL",
+    "color": "132,33,107"
+  },
+  {
+    "name": "KNK",
+    "color": "252,252,17"
+  },
+  {
+    "name": "FON",
+    "color": "252,163,17"
+  },
+  {
+    "name": "SUU",
+    "color": "237,122,158"
+  },
+  {
+    "name": "IHO",
+    "color": "175,137,112"
+  },
+  {
+    "name": "SÄD",
+    "color": "255,97,97"
+  },
+  {
+    "name": "PSY",
+    "color": "96,94,17"
+  },
+  {
+    "name": "LPSY",
+    "color": "96,94,17"
+  },
+  {
+    "name": "NEU",
+    "color": "0,197,42"
+  },
+  {
+    "name": "LNEU",
+    "color": "0,197,42"
+  },
+  {
+    "name": "KEU",
+    "color": "76,206,209"
+  },
+  {
+    "name": "LII",
+    "color": "170,186,10"
+  },
+  {
+    "name": "GEN",
+    "color": "252,140,153"
+  },
+  {
+    "name": "TYÖ",
+    "color": "7,109,255"
+  },
+  {
+    "name": "FYS",
+    "color": "0,32,255"
+  },
+  {
+    "name": "GER",
+    "color": "158,107,5"
+  },
+  {
+    "name": "YLE",
+    "color": "7,109,84"
+  }
+]

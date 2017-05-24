@@ -1,0 +1,72 @@
+﻿<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+        <link rel="stylesheet" href="stylesheets/eRA_timeline_form.css" />
+    </head>
+    <body>
+        <table id="settings">
+            <tr>
+                <td>
+                    <div class="form-group mb-0">
+                        <label for="dataViewSelect">Suodata näkymiä</label>
+                        <select class="form-control form-control-sm" id="dataViewSelect" multiple></select> 
+                    </div>
+                </td>
+                <td>
+                    <label for="colorOptions">Väritys</label>
+                    <form id="colorOptions" action="">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="colors" value="serviceEvent" checked id="colorRadio1" />
+                                Palvelutapahtuman mukaan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="colors" value="dataView" id="colorRadio2">
+                                Näkymän mukaan
+                            </label>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <div>
+                        <label for="searchField">Hae aikajanalta</label>
+                    </div>
+                    <div class="form-inline">
+                        <form-group>
+                            <input class="form-control form-control-sm mb-2" type="text" id="searchField" />
+                            <button class="btn btn-danger btn-sm mb-2" id="clearButton">Tyhjennä</button>
+                        </form-group>
+                    </div>
+                        <button class="btn btn-primary btn-sm" id="previousSearchResult">Edellinen</button>
+                        <button class="btn btn-primary btn-sm" id="nextSearchResult">Seuraava</button>
+                        <small id="searchResultsNumber"></small>
+                </td>
+                <td style="border-right:none">
+                    <label class="form-check-label">
+                        <input type="checkbox" id="multiailmentCheck"> 
+                        MOSA-tunnistintila
+                    </label>               
+                </td>
+            </tr>
+        </table>             
+
+		<div class="timeline">
+            <div id='timeline-embed' style="width: 100%; height: 100%"></div>
+        </div>
+        
+        <div class="modal"></div>
+        
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+        <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+        <link rel="stylesheet" href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css">
+        <script src="javascripts/eRA_timeline_form.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.9.0/jquery.mark.min.js"></script>
+		<script src="javascripts/eRADataLibrary.js" charset=ISO-8859-1></script>
+
+</body></html>    

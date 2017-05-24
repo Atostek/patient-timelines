@@ -1,0 +1,32 @@
+﻿<html><head>
+     <meta charset="utf-8">
+     <title></title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+     <script>
+         $.holdReady(true);
+    </script>
+    </head>
+    <body>
+        <div class="checkBoxes">
+            <input type="checkbox" id="checkExpandAllMonths" />
+            <label for="checkExpandAllMonths">Laajenna kuukaudet</label>
+            <input type="checkbox" id="checkExpandAllEntries" />
+            <label for="checkExpandAllEntries">Laajenna merkinnät</label>
+            <input type="checkbox" id="checkShowAllText" />
+            <label for="checkShowAllText">Laajenna tekstit</label>
+        </div>
+		<div class="container">
+            <table id="dataTable" class="tableizer-table"></table>
+        </div>
+        
+        <div class="modal"></div>
+        
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="stylesheets/eRA_data_form.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-table-headers/0.1.19/js/jquery.stickytableheaders.min.js"></script>
+		<script src="javascripts/eRADataLibrary.js"></script>
+        <script src="javascripts/scrollLock.js"></script>
+		<script src="javascripts/eRA_data_form.js"></script>
+
+</body></html>

@@ -1,0 +1,71 @@
+﻿<html><head>
+        <meta charset="utf-8">
+        <title>Kirjautumissivu</title>
+        <link rel="stylesheet" href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css">
+    </head>
+
+    <body style="word-wrap: break-word; height:100%">
+        <div class="container">
+            <div class="form-group row">
+                <label for="systemIdInput" class="col-sm-2 col-form-label">Järjestelmä-ID</label>
+                <div class="col-sm-6">
+                    <input class="form-control form-control-sm" id="systemIdInput" type="text" value=""/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="organizationIdInput" class="col-sm-2 col-form-label">Organisaatio-ID</label>
+                <div class="col-sm-6">
+                    <input class="form-control form-control-sm" id="organizationIdInput" type="text" value="" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="registrationNumberInput" class="col-sm-2 col-form-label">Rekisterinumero</label>
+                <div class="col-sm-6">
+                    <input class="form-control form-control-sm" id="registrationNumberInput" type="text" value="" />
+                </div>
+            </div>
+
+            <div class="offset-sm-2 col-sm-6">
+                <button id="loginButton" class="btn btn-primary btn-sm">Kirjaudu sisään</button>
+                <button id="logoutButton" class="btn btn-primary btn-sm">Kirjaudu ulos</button>
+            </div>
+        </div>
+
+        <h3>Potilaan tiedot</h3>
+        <div class="container">      
+            <div class="form-group row">
+                <label for="idNumberInput" class="col-sm-2 col-form-label">Henkilötunnus</label>
+                <div class="col-sm-6">
+                    <input class="form-control form-control-sm" id="idNumberInput" type="text" value="060660-9860" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="firstNameInput" class="col-sm-2 col-form-label">Etunimi</label>
+                <div class="col-sm-6">
+                    <input class="form-control form-control-sm" id="firstNameInput" type="text" value="Varpu" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="lastNameInput" class="col-sm-2 col-form-label">Sukunimi</label>
+                <div class="col-sm-6">
+                    <input class="form-control form-control-sm" id="lastNameInput" type="text" value="Munuainen" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="isDeadInput" class="col-sm-2 col-form-label">Kuollut</label>
+                <div class="col-sm-6">
+                    <input class="form-control form-control-sm" id="isDeadInput" type="text" value="0" />
+                </div>
+            </div>
+            <div class="offset-sm-2 col-sm-6">
+                <button id="openPatientButton" class="btn btn-primary btn-sm">Avaa potilas</button>
+                <button id="closePatientButton" class="btn btn-primary btn-sm">Sulje potilas</button>
+                <button id="testUseButton" class="btn btn-info btn-sm">Testikäyttö kirjautumatta</button>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
+        <script src="javascripts/eRA_login_form.js"></script>
+</body></html>

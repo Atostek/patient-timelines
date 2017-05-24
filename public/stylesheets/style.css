@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+iframe {
+  width: 100%;
+  border: 0;
+  margin: 5px 0px 10px 0px;
+}
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+#loginForm {
+  height: 460px;
+}
+#timelineForm {
+  min-height: 820px;
+}
+#multiailmentForm {
+  min-height: 420px;
+}
+#snapshotForm {
+  min-height: 720px;
+}
+.container {
+  width: 1240px;
+}

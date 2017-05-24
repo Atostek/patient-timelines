@@ -1,0 +1,134 @@
+﻿
+html {
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline {
+	height: 85%;
+
+}
+
+table {
+	height: 10%;
+	width: 100%;
+    opacity: 0;
+    table-layout: fixed;
+}
+
+.modal {
+	display:    none;
+	position:   fixed;
+	z-index:    1000;
+	top:        0;
+	left:       0;
+	height:     100%;
+	width:      100%;
+	background: rgba( 255, 255, 255, .8 ) 
+				url('../images/loadingGif.gif') 
+				50% 20% 
+				no-repeat;
+}
+
+body.loading {
+	overflow: hidden;   
+}
+
+body.loading .modal {
+	display: block;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"],
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-] {
+	color: grey !important;
+}
+
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline, .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p {
+	color: #444444 !important;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+	color: #333 !important;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container.hidden, .tl-timemarker.tl-timemarker-active .tl-timemarker-timespan.hidden {
+	opacity: 1 !important;
+	z-index: 7 !important;
+} 
+
+.tl-timemarker.tl-timemarker .tl-timemarker-content-container {
+	z-index: 7;
+
+} 
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+    z-index: 9;
+}
+
+.tl-timemarker .tl-timemarker-content-container:hover {
+    z-index: 9;
+}
+
+.tl-timemarker.tl-timemarker .tl-timemarker-content-container.searchResult {
+	box-shadow: 0px 0px 8px 1px #f9fd04 !important
+}        
+
+.tl-timeline h1, .tl-timeline h2, .tl-timeline h3 {
+	font-size: 22px;
+}
+
+.tl-timegroup .tl-timegroup-message {
+	color: grey !important;
+}
+
+#dataViewSelect {
+	width: 80%;
+}
+
+td {
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: 1px solid grey;
+}
+
+.tl-timenav-container .tl-timenav-item-container .tl-timemarker .tl-timemarker-timespan.hidden,
+.tl-timenav-container .tl-timenav-item-container .tl-timemarker .tl-timemarker-content-container.hidden {
+	opacity: 0.3;
+	z-index: 6;
+}
+
+.tl-timemarker .tl-timemarker-content-container.hidden:hover {
+	opacity: 0.8 !important;
+	z-index: 9 !important;
+}
+
+.tl-timemarker .tl-timemarker-content-container.hidden.disabled:hover,
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container.hidden.disabled, .tl-timemarker.tl-timemarker-active .tl-timemarker-timespan.hidden.disabled,
+.tl-timenav-container .tl-timenav-item-container .tl-timemarker .tl-timemarker-timespan.hidden.disabled,
+.tl-timenav-container .tl-timenav-item-container .tl-timemarker .tl-timemarker-content-container.hidden.disabled {
+	opacity: 0 !important;
+	z-index: 0 !important;
+}
+
+#floating-panel {
+	position: absolute;
+	z-index: 10;
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #999;
+	top: 50%;
+}
+
+mark {
+    background-color: #ff0 !important;
+    color: #000 !important;
+    padding: 0 !important;
+}
+

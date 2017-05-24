@@ -1,0 +1,146 @@
+﻿
+table.tableizer-table {
+	font-size: 12px;
+	border: 1px solid #CCC; 
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+} 
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #CCC;
+	height: 20px;
+	max-height: 50px;
+}
+.bottomRow td {
+	border-bottom: 1px solid #929292;
+}
+.container {
+	height: 95%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.expandable {
+	background-image: url('../images/expandIcon.png');
+	background-clip: padding-box;
+	background-repeat: no-repeat;
+	background-size: 10%;
+	background-position: right; 
+}
+.expandable.expanded {
+	background-image: url('../images/unexpandIcon.png');
+	background-clip: padding-box;
+	background-repeat: no-repeat;
+	background-size: 10%;
+	background-position: right; 
+}
+.loneEntry.text {
+	border: double 1px;
+}
+.topEntry.text {
+	border-top: double 1px;
+	border-bottom: none;
+	border-left: double 1px;
+}
+.midEntry.text {
+	border-bottom: none;
+	border-top: dashed 1px;
+	border-left: double 1px;
+}
+.bottomEntry.text {
+	border-top: dashed 1px;
+	border-left: double 1px;
+}
+td.month {
+	max-width: 25px;
+}
+
+td.date {
+	max-width: 10px;
+}
+td.text {
+	max-width: 50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tableizer-table th {
+	background-color: #104E8B; 
+	color: #FFF;
+	font-weight: bold;
+}
+
+tr.odd .month {
+	background-color: aliceblue;
+}
+
+tr.odd .year {
+	background-color: aliceblue;
+}
+
+.modal {
+	display:    none;
+	position:   fixed;
+	z-index:    1000;
+	top:        0;
+	left:       0;
+	height:     100%;
+	width:      100%;
+	background: rgba( 255, 255, 255, .8 ) 
+				url('../images/loadingGif.gif') 
+				50% 50% 
+				no-repeat;
+}
+
+body.loading {
+	overflow: hidden;   
+}
+
+body.loading .modal {
+	display: block;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkBoxes {
+	font-size: 12px;
+}
+
+/* widths */
+td.year {
+	width: 3%;
+}
+
+td.month {
+	width: 6%;
+}
+
+td.contentDate.date {
+	width: 6%;
+}
+
+td.textText.text {
+	width: 17%;
+}
+
+td.examText.text {
+	width: 17%;
+}
+
+td.diagnosisText.text {
+	width: 17%;
+}
+
+td.treatmentText.text {
+	width: 17%;
+}
+
+td.medicationText.text {
+	width: 17%;
+}
+

@@ -1,0 +1,203 @@
+﻿html, body {
+    height: 100%;
+}
+
+* {
+    max-height: 100%;
+}
+
+body {
+    font-size: small;
+}
+
+.container-fluid {
+    background-color: mintcream;
+}
+
+span.info-header {
+    font-weight: 600;
+}
+
+.info-row {
+    
+}
+
+div {
+      box-shadow: 
+    1px 0 0 0 #000, 
+    0 1px 0 0 #000, 
+    1px 1px 0 0 #000,   /* Just to fix the corner */
+    1px 0 0 0 #000 inset, 
+    0 1px 0 0 #000 inset;
+
+}
+
+#title-row {
+    background-color: #4c4ced;
+    color: white;
+    font-size: 22px;
+}
+
+span.white {
+    color: white;
+}
+
+span.black {
+    color: black;
+}
+
+span#risk-info-title {
+
+}
+
+div#risk-info-row {
+    background-color: orangered;
+}
+
+div.inner-table-row {
+    box-shadow: unset;
+    margin: 5px;
+    height: 80%;
+    margin-top: 10px;
+}
+
+#critical-risks {
+    background-color: #f35e5e;
+}
+
+#treatment-risks {
+    background-color: yellow;
+}
+
+div#diagnosis-info-row {
+    background-color: green;
+}
+
+#current-diagnoses {
+    background-color: #46ad19;
+}
+
+#old-diagnoses {
+    background-color: darkseagreen;
+}
+
+div#medication-info-row {
+    background-color: brown;
+}
+
+#current-medication {
+    background-color: sandybrown;
+}
+
+#on-demand-medication {
+    background-color: rosybrown;
+}
+
+#stopped-medication {
+    background-color: saddlebrown;
+}
+
+div#vaccination-info-row {
+    background-color: #e3d800;
+}
+
+#vaccination-info {
+    /*height: 15%;*/
+}
+
+#medication-info {
+    /*height: 35%;*/
+}
+
+div#laboratory-info-row {
+    background-color: pink;
+}
+
+div#measurements-info-row {
+    background-color: cornflowerblue;
+}
+
+div#imaging-info-row {
+    background-color: palevioletred;
+}
+
+div#treatments-info-row {
+    background-color: olive;
+}
+
+thead tr {
+    background-color: #fee8cc;
+}
+
+table {
+    border: solid black 1px;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    background-color: white;
+}
+
+tr, th, thead, tbody, td {
+    border: inherit;
+    font-size: small;
+}
+
+div.table-col {
+    padding: 0;
+    box-shadow: unset;
+}
+
+.info-container {
+
+
+}
+
+.info-container-right {
+
+
+    border-right: solid black 1px;
+}
+
+.info-container, .info-container-right {
+    height: 25%;
+    box-shadow: 
+    1px 0 0 0 #000, 
+    0 0px 0 0 #000, 
+    1px 1px 0 0 #000,  
+    1px 0 0 0 #000 inset, 
+    0 1px 0 0 #000 inset;
+}
+
+.info-container.fill-col {
+    height: 100%;
+    max-height: 25%;
+}
+
+#info-container-body {
+    min-height: 965px;
+}
+
+.title-container-row {
+}
+
+.table-scroll-row {
+
+}
+
+.inner-table-row > .col {
+    overflow-y: auto;
+}
+
+table.bottomless {
+    border-bottom: unset;
+}
+
+td {
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#consent {
+
+}

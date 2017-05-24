@@ -1,0 +1,2777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <get_entries>
+    <protected_content_removed>0</protected_content_removed>
+    <entries>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.22</oid>
+        <status>archived</status>
+        <time>2010-01-03 12:39:11</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2010-01-03 12:39:11</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 22:47:02</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 22:54:20</edit_time>
+            <role>Korjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Suvussa ei munuaistauteja. Aiemmin terve. 40-v tarkastuksessa havaittu koholla oleva verenpaine ja proteinuria. Seuranta jäänyt, kunnes hakeutui päänsäryn vuoksi lähettävän lääkärin vo:lle. Todettu korkea RR ja aloitettu Losartan. Havaittu koholla oleva krea, aiemmista krea-arvoista ei tietoa. Ei makroskooppista hematuriaa.
+Oireeton. Lastentarhan opettaja, työelämässä.
+Hb 120, Krea 200, du prot 2,1 g, u eryt 123. </simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Tulee Pirkko Kapasen lähetteellä proteinurian vuoksi.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>75</code>
+              <text>Suunnitelma</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Munuaisbiopsia aiheellinen, selvitetään riskit ja on suostuvainen tmp:een. LP os MUNV, alle 1 kk.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.22.5.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>N05.9</code>
+                    <name>Määrittämätön nefriittinen oireyhtymä määrittämätön munuaiskeräsmuutos</name>
+                  </code>
+                  <name>Määrittämätön nefriittinen oireyhtymä määrittämätön munuaiskeräsmuutos</name>
+                  <primarity>primary</primarity>
+                  <certainty>suspect</certainty>
+                  <permanence>temporary</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.31</oid>
+                      <name>Määrittämätön nefriittinen oireyhtymä määrittämätön munuaiskeräsmuutos</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2010-01-03</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Johanna</first_name>
+                    <last_name>Kauko</last_name>
+                    <id>010110-146R</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.46848509.10.1</oid>
+                    <name>Mehiläinen, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.23</oid>
+        <status>archived</status>
+        <time>2010-01-15 12:47:21</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2010-01-15 12:47:21</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 22:52:10</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 22:53:49</edit_time>
+            <role>Korjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.23.1.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>N05.9</code>
+                    <name>Määrittämätön nefriittinen oireyhtymä määrittämätön munuaiskeräsmuutos</name>
+                  </code>
+                  <name>Määrittämätön nefriittinen oireyhtymä määrittämätön munuaiskeräsmuutos</name>
+                  <primarity>primary</primarity>
+                  <certainty>suspect</certainty>
+                  <permanence>temporary</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.32</oid>
+                      <name>Määrittämätön nefriittinen oireyhtymä määrittämätön munuaiskeräsmuutos</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2010-01-16</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Johanna</first_name>
+                    <last_name>Kauko</last_name>
+                    <id>010110-146R</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.46848509.10.1</oid>
+                    <name>Mehiläinen, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>65</code>
+              <text>Hoidon syy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Tulee suunnitellusti munuaisbiopsiaan.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>23</code>
+              <text>Jatkohoidon järjestämistä koskevat tiedot</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Tulee kuulemaan vastausta MUNP:lle kuukauden kuluttua. SVA 15.1.-17.1.2010.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>29</code>
+              <text>Loppuarvio (epikriisi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Esitietoja edellä. Tehdään munuaisbiopsia, ei komplikaatioita. </simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.24</oid>
+        <status>archived</status>
+        <time>2010-02-22 12:54:34</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2010-02-22 12:54:34</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 22:59:26</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Löydöksenä tyypillinen IgA nefropatia. Runsaasti jo kroonisia muutoksia. RR korkeahko.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Tulee kuulemaan koepalavastausta.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>75</code>
+              <text>Suunnitelma</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Lisätään Amlodipin 5mg x 1.
+Kerrotaan IgA nefropatiasta ja hoidosta. Kroonisia muutoksia biopsiassa, joten hoitolinjana on verenpaineen hyvä hoito. Pyritään normotensioon. Kontr 3 kk.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.24.5.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>N08.2*D89.80</code>
+                    <name>Immunoglobuliini A (IgA) nefropatia</name>
+                  </code>
+                  <name>Immunoglobuliini A (IgA) nefropatia</name>
+                  <primarity>primary</primarity>
+                  <certainty>probable_or_definite</certainty>
+                  <permanence>permanent</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.33</oid>
+                      <name>Immunoglobuliini A (IgA) nefropatia</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2007-01-16</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Johanna</first_name>
+                    <last_name>Kauko</last_name>
+                    <id>010110-146R</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.46848509.10.1</oid>
+                    <name>Mehiläinen, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.26</oid>
+        <status>archived</status>
+        <time>2010-09-22 13:01:04</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2010-09-22 13:01:04</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:03:39</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>oireeton, krea 270. </simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Sovittu kontrolli</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>75</code>
+              <text>Suunnitelma</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Entiset lääkkeet, kontrolli 6 kk.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.26.5.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>N08.2*D89.80</code>
+                    <name>Immunoglobuliini A (IgA) nefropatia</name>
+                  </code>
+                  <name>Immunoglobuliini A (IgA) nefropatia</name>
+                  <primarity>primary</primarity>
+                  <certainty>probable_or_definite</certainty>
+                  <permanence>permanent</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.34</oid>
+                      <name>Immunoglobuliini A (IgA) nefropatia</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2010-01-16</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Johanna</first_name>
+                    <last_name>Kauko</last_name>
+                    <id>010110-146R</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.46848509.10.1</oid>
+                    <name>Mehiläinen, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.27</oid>
+        <status>archived</status>
+        <time>2011-03-22 23:03:51</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2011-03-22 23:03:51</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:06:43</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Viluttaa ja väsyttää. Hb 105, krea 350. Ferritiini 50 ja trfesat% 10. Annetaan tänään Ferinject. Käydään läpi dialyysihoitoon ja munuaissiirtoon liittyviä asioita. Ent lääkkeet. B tod eposta ja sek. hyperparatyreoosin lääkkeistä. </simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.29</oid>
+        <status>archived</status>
+        <time>2011-09-22 13:14:48</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2011-09-22 13:14:48</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:17:18</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Hb 95, Krea 450 PTH 40 pmol/l, Ca ion 1,20 ja Pi 1,5.
+Väsyttää, töissä ei meinaa jaksaa.
+Aloitetaan epo, Etalpha ja Kalcipos-D.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Sovittu kontrolli predialyysipolilla.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.12.33</oid>
+        <status>archived</status>
+        <time>2012-11-22 13:33:48</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.28335056.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio2</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.28335056.10.0</oid>
+          <name>Yksityinen testiorganisaatio2</name>
+        </service_producer>
+        <author>
+          <first_name>Tenho</first_name>
+          <last_name>Vanhatalo</last_name>
+          <id>010110-142L</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.28335056.10.1</oid>
+          <name>HUS, HKI</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Tenho</first_name>
+            <last_name>Vanhatalo</last_name>
+            <id>010110-142L</id>
+            <edit_time>2012-11-22 13:33:48</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Tenho</first_name>
+            <last_name>Vanhatalo</last_name>
+            <id>010110-142L</id>
+            <edit_time>2017-02-22 23:37:03</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.12</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Predialysihoitajan luona käynti. Tutustuu PD-hoitoon ja välineisiin. Puhutaan sopeutumisesta uuteen tilanteeseen. Aloitettu munuaissiirtoon tähtäävät valmistelut. </simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.30</oid>
+        <status>archived</status>
+        <time>2013-06-22 13:17:40</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2013-06-22 13:17:40</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:23:08</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Todetaan voinnin ja labrojen perusteella että alkaa olla sopiva ajankohta aloittaa dialyysihoito. Lähete PD-katetrin laittoon. B todistus PD-nesteistä.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Sovittu predialyysikäynti</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>execution</phase>
+            <title>
+              <code>61</code>
+              <text>Hoitotoimet</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.30.6.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>N18.8</code>
+                    <name>Muu pitkäaikainen munuaisten vajaatoiminta</name>
+                  </code>
+                  <name>Muu pitkäaikainen munuaisten vajaatoiminta</name>
+                  <primarity>secondary</primarity>
+                  <certainty>probable_or_definite</certainty>
+                  <permanence>temporary</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.38</oid>
+                      <name>Muu pitkäaikainen munuaisten vajaatoiminta</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2010-01-03</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Johanna</first_name>
+                    <last_name>Kauko</last_name>
+                    <id>010110-146R</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.46848509.10.1</oid>
+                    <name>Mehiläinen, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.30.5.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>N08.2*D89.80</code>
+                    <name>Immunoglobuliini A (IgA) nefropatia</name>
+                  </code>
+                  <name>Immunoglobuliini A (IgA) nefropatia</name>
+                  <primarity>primary</primarity>
+                  <certainty>probable_or_definite</certainty>
+                  <permanence>permanent</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.37</oid>
+                      <name>Immunoglobuliini A (IgA) nefropatia</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2010-01-16</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Johanna</first_name>
+                    <last_name>Kauko</last_name>
+                    <id>010110-146R</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.46848509.10.1</oid>
+                    <name>Mehiläinen, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.12.34</oid>
+        <status>archived</status>
+        <time>2013-09-22 13:37:12</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.28335056.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio2</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.28335056.10.0</oid>
+          <name>Yksityinen testiorganisaatio2</name>
+        </service_producer>
+        <author>
+          <first_name>Tenho</first_name>
+          <last_name>Vanhatalo</last_name>
+          <id>010110-142L</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.28335056.10.1</oid>
+          <name>HUS, HKI</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Tenho</first_name>
+            <last_name>Vanhatalo</last_name>
+            <id>010110-142L</id>
+            <edit_time>2013-09-22 13:37:12</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Tenho</first_name>
+            <last_name>Vanhatalo</last_name>
+            <id>010110-142L</id>
+            <edit_time>2017-02-22 23:38:51</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.12</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Dilayysihoidon aloituksessa. Siirtolistaa varten tutkimukset tehty ja kaikki ok. Lääkäri tekee ensi-ilmoituksen siirtolistalle.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.32</oid>
+        <status>archived</status>
+        <time>2014-10-22 13:27:21</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2014-10-22 13:27:21</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:29:03</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>PD sujuu ongelmitta. Vointi hyvä. Siirtolistalla. </simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Sovittu kotidialyysikäynti</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.20</oid>
+        <status>archived</status>
+        <time>2016-03-10 10:04:32</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2016-03-10 10:04:32</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-17 10:16:13</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-17 10:19:50</edit_time>
+            <role>Korjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Vointi hyvä. Käsien vapinaa. Ei kuumetta, diureesi hyvä.Käynyt jo kilometrin kävelylenkeillä.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>37</code>
+              <text>Nykytila (status)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Kotona RR 140/90 luokkaa. Ei turvotuksia.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Tulee ensimmäiseen polikliiniseen kontrolliin 17.2.2016 tapahtuneen munuaissiirron jälkeen.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>75</code>
+              <text>Suunnitelma</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Kontrolloidaan labrat 2 päivän kuluttua ja käynti viikon kuluttua. Ei lääkemuutoksia.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.20.5.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>N08.2*D89.80</code>
+                    <name>Immunoglobuliini A (IgA) nefropatia</name>
+                  </code>
+                  <name>Immunoglobuliini A (IgA) nefropatia</name>
+                  <primarity>primary</primarity>
+                  <certainty />
+                  <permanence>permanent</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.9</oid>
+                      <name>Immunoglobuliini A (IgA) nefropatia</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2010-02-17</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Johanna</first_name>
+                    <last_name>Kauko</last_name>
+                    <id>010110-146R</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.46848509.10.1</oid>
+                    <name>Mehiläinen, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.20.5.3</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>Z94.0</code>
+                    <name>Aikaisemmin tehty munuaisensiirto</name>
+                  </code>
+                  <name>Aikaisemmin tehty munuaisensiirto</name>
+                  <primarity>secondary</primarity>
+                  <certainty />
+                  <permanence>permanent</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.11</oid>
+                      <name>Aikaisemmin tehty munuaisensiirto</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2016-02-17</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Johanna</first_name>
+                    <last_name>Kauko</last_name>
+                    <id>010110-146R</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.46848509.10.1</oid>
+                    <name>Mehiläinen, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.1</oid>
+        <status>archived</status>
+        <time>2017-02-17 09:46:20</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-17 09:46:20</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-17 10:00:23</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>SIS</name>
+          <description>Sisätaudit</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>78</code>
+              <text>Etäkontakti</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Soittaa. Verenpaine ollut korkea. Lisätään Amlodipin 5mg x 2.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.2</oid>
+        <status>archived</status>
+        <time>2010-02-22 09:55:01</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-17 09:55:01</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-17 10:01:17</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>VLÄÄ</name>
+          <description>Kokonaislääkitys</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>execution</phase>
+            <title>
+              <code>55</code>
+              <text>Lääkehoito</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.2.1.2</oid>
+                <type>medication_check_status</type>
+                <medication_check_status>
+                  <full_evaluation_done>0</full_evaluation_done>
+                </medication_check_status>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.7</oid>
+                <type>medication</type>
+                <medication>
+                  <drug_name>AMLODIPIN ACTAVIS</drug_name>
+                  <atc_name>Amlodipiini</atc_name>
+                  <strength>5 mg</strength>
+                  <dosage_form>tabletti</dosage_form>
+                  <quantity_type>duration</quantity_type>
+                  <quantity_value>2</quantity_value>
+                  <quantity_unit>a</quantity_unit>
+                  <dosage_instructions>1 tabl 2 kertaa vrk:ssa.</dosage_instructions>
+                  <intended_use_description>Verenpainelääke.</intended_use_description>
+                  <sic>0</sic>
+                  <is_new_medication>1</is_new_medication>
+                  <permanent_medication>1</permanent_medication>
+                  <change_forbidden>0</change_forbidden>
+                </medication>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.28</oid>
+        <status>archived</status>
+        <time>2017-02-22 23:10:49</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:10:49</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:10:48</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>VLÄÄ</name>
+          <description>Kokonaislääkitys</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>execution</phase>
+            <title>
+              <code>55</code>
+              <text>Lääkehoito</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.28.1.2</oid>
+                <type>medication_check_status</type>
+                <medication_check_status>
+                  <full_evaluation_done>0</full_evaluation_done>
+                </medication_check_status>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.39</oid>
+                <type>medication</type>
+                <medication>
+                  <drug_name>AMLODIPIN ACTAVIS</drug_name>
+                  <atc_name>Amlodipiini</atc_name>
+                  <strength>5 mg</strength>
+                  <dosage_form>tabletti</dosage_form>
+                  <quantity_type>duration</quantity_type>
+                  <quantity_value>2</quantity_value>
+                  <quantity_unit>a</quantity_unit>
+                  <dosage_instructions>DS. 1 tabl/vrk.</dosage_instructions>
+                  <intended_use_description>Verenpainelääke.</intended_use_description>
+                  <sic>0</sic>
+                  <is_new_medication>1</is_new_medication>
+                  <permanent_medication>1</permanent_medication>
+                  <change_forbidden>0</change_forbidden>
+                </medication>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.28test</oid>
+        <status>archived</status>
+        <time>2011-09-22 23:10:49</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:10:49</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:10:48</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.6</service_event_oid>
+        <primary_data_view>
+          <name>VLÄÄ</name>
+          <description>Kokonaislääkitys</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>execution</phase>
+            <title>
+              <code>55</code>
+              <text>Lääkehoito</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.28.1.2</oid>
+                <type>medication_check_status</type>
+                <medication_check_status>
+                  <full_evaluation_done>0</full_evaluation_done>
+                </medication_check_status>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.35</oid>
+                <type>medication</type>
+                <medication>
+                  <drug_name>ARANESP</drug_name>
+                  <atc_name>Darbepoetiinialfa</atc_name>
+                  <strength>40 mikrog</strength>
+                  <dosage_form>injektioneste, liuos</dosage_form>
+                  <quantity_type>duration</quantity_type>
+                  <quantity_value>1</quantity_value>
+                  <quantity_unit>a</quantity_unit>
+                  <dosage_instructions>DS. 1 annos ihonalaisesti kerran kk:ssa.</dosage_instructions>
+                  <intended_use_description>Munuaisanemian hoitoon.</intended_use_description>
+                  <sic>0</sic>
+                  <is_new_medication>1</is_new_medication>
+                  <permanent_medication>1</permanent_medication>
+                  <change_forbidden>0</change_forbidden>
+                </medication>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.36</oid>
+                <type>medication</type>
+                <medication>
+                  <drug_name>ETALPHA</drug_name>
+                  <atc_name>Alfakalsidoli</atc_name>
+                  <strength>0,25 mikrog</strength>
+                  <dosage_form>kapseli, pehmeä</dosage_form>
+                  <quantity_type>duration</quantity_type>
+                  <quantity_value>2</quantity_value>
+                  <quantity_unit>a</quantity_unit>
+                  <dosage_instructions>DS. 1 kaps kerran vrk:ssa.</dosage_instructions>
+                  <intended_use_description>Lisäkilpirauhasen liikatoiminnan hoitoon.</intended_use_description>
+                  <sic>0</sic>
+                  <is_new_medication>1</is_new_medication>
+                  <permanent_medication>1</permanent_medication>
+                  <change_forbidden>0</change_forbidden>
+                </medication>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.6.28test2</oid>
+        <status>archived</status>
+        <time>2016-02-17 23:10:49</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.46848509.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.46848509.10.0</oid>
+          <name>Yksityinen testiorganisaatio</name>
+        </service_producer>
+        <author>
+          <first_name>Johanna</first_name>
+          <last_name>Kauko</last_name>
+          <id>010110-146R</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.46848509.10.1</oid>
+          <name>Mehiläinen, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:10:49</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Johanna</first_name>
+            <last_name>Kauko</last_name>
+            <id>010110-146R</id>
+            <edit_time>2017-02-22 23:10:48</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.12</service_event_oid>
+        <primary_data_view>
+          <name>VLÄÄ</name>
+          <description>Kokonaislääkitys</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>execution</phase>
+            <title>
+              <code>55</code>
+              <text>Lääkehoito</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.6.28.1.2</oid>
+                <type>medication_check_status</type>
+                <medication_check_status>
+                  <full_evaluation_done>0</full_evaluation_done>
+                </medication_check_status>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.40</oid>
+                <type>medication</type>
+                <medication>
+                  <drug_name>SANDIMMUN NEORAL</drug_name>
+                  <atc_name>Siklosporiini</atc_name>
+                  <strength>100 mg</strength>
+                  <dosage_form>kapseli, pehmeä</dosage_form>
+                  <quantity_type>duration</quantity_type>
+                  <quantity_value>2</quantity_value>
+                  <quantity_unit>a</quantity_unit>
+                  <dosage_instructions>DS. 1 kaps 2 kertaa vrk:ssa.</dosage_instructions>
+                  <intended_use_description>Hyljinnän estoon.</intended_use_description>
+                  <sic>0</sic>
+                  <is_new_medication>0</is_new_medication>
+                  <permanent_medication>1</permanent_medication>
+                  <change_forbidden>0</change_forbidden>
+                </medication>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.41</oid>
+                <type>medication</type>
+                <medication>
+                  <drug_name>CELLCEPT</drug_name>
+                  <atc_name>Mykofenolihappo</atc_name>
+                  <strength>500 mg</strength>
+                  <dosage_form>tabletti</dosage_form>
+                  <quantity_type>duration</quantity_type>
+                  <quantity_value>2</quantity_value>
+                  <quantity_unit>a</quantity_unit>
+                  <dosage_instructions>DS. 1 tabl 2 kertaa vrk.ssa</dosage_instructions>
+                  <intended_use_description>Hyljinnän estoon.</intended_use_description>
+                  <sic>0</sic>
+                  <is_new_medication>0</is_new_medication>
+                  <permanent_medication>0</permanent_medication>
+                  <change_forbidden>0</change_forbidden>
+                </medication>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.42</oid>
+                <type>medication</type>
+                <medication>
+                  <drug_name>MEDROL</drug_name>
+                  <atc_name>Metyyliprednisoloni</atc_name>
+                  <strength>4 mg</strength>
+                  <dosage_form>tabletti</dosage_form>
+                  <quantity_type>duration</quantity_type>
+                  <quantity_value>2</quantity_value>
+                  <quantity_unit>a</quantity_unit>
+                  <dosage_instructions>2 tabl aamuisin.</dosage_instructions>
+                  <intended_use_description>Hyljinnän estoon.</intended_use_description>
+                  <sic>0</sic>
+                  <is_new_medication>0</is_new_medication>
+                  <permanent_medication>0</permanent_medication>
+                  <change_forbidden>0</change_forbidden>
+                </medication>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.29.7</oid>
+        <status>archived</status>
+        <time>2009-12-10 23:41:28</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.15719974.10.0</owner_oid>
+          <owner_name>Terveyskeskus, TRE</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </service_producer>
+        <author>
+          <first_name>Pirkko</first_name>
+          <last_name>Kapanen</last_name>
+          <id>010110-144N</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2017-02-22 23:41:28</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2017-02-22 23:41:28</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.29</service_event_oid>
+        <primary_data_view>
+          <name>VLÄÄ</name>
+          <description>Kokonaislääkitys</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>execution</phase>
+            <title>
+              <code>55</code>
+              <text>Lääkehoito</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.29.7.1.2</oid>
+                <type>medication_check_status</type>
+                <medication_check_status>
+                  <full_evaluation_done>0</full_evaluation_done>
+                </medication_check_status>
+              </content>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.43</oid>
+                <type>medication</type>
+                <medication>
+                  <drug_name>LOSARTAN KRKA</drug_name>
+                  <atc_name>Losartaani</atc_name>
+                  <strength>100 mg</strength>
+                  <dosage_form>tabletti, kalvopäällysteinen</dosage_form>
+                  <quantity_type>duration</quantity_type>
+                  <quantity_value>1</quantity_value>
+                  <quantity_unit>a</quantity_unit>
+                  <dosage_instructions>DS. 0,5 tabl aamulla</dosage_instructions>
+                  <intended_use_description>Verenpainelääke.</intended_use_description>
+                  <sic>0</sic>
+                  <is_new_medication>1</is_new_medication>
+                  <permanent_medication>1</permanent_medication>
+                  <change_forbidden>0</change_forbidden>
+                </medication>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.29.2</oid>
+        <status>archived</status>
+        <time>2006-08-10 22:07:42</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.15719974.10.0</owner_oid>
+          <owner_name>Terveyskeskus, TRE</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </service_producer>
+        <author>
+          <first_name>Pirkko</first_name>
+          <last_name>Kapanen</last_name>
+          <id>010110-144N</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2006-08-10 22:07:42</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2017-02-22 22:18:31</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.29</service_event_oid>
+        <primary_data_view>
+          <name>YLE</name>
+          <description>Yleislääketiede</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Terve, oireeton. Ei lääkityksiä, ei tupakoi.U alb 2+. </simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>37</code>
+              <text>Nykytila (status)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>167 cm, 76 kg, BMI 27, vyötärö 88cm, RR 140/95.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>40-vuotistarkastus.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>75</code>
+              <text>Suunnitelma</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Kontrolloidaan virtsanäyte. Suositellaan verenpaineen seurantaa ja laihduttamista.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.29.2.5.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <primarity>primary</primarity>
+                  <certainty />
+                  <permanence />
+                  <episodes />
+                  <source />
+                  <start_time>2017-02-22</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Pirkko</first_name>
+                    <last_name>Kapanen</last_name>
+                    <id>010110-144N</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.15719974.10.0</oid>
+                    <name>Terveyskeskus, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.29.3</oid>
+        <status>archived</status>
+        <time>2006-09-10 14:00:00</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.15719974.10.0</owner_oid>
+          <owner_name>Terveyskeskus, TRE</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </service_producer>
+        <author>
+          <first_name>Pirkko</first_name>
+          <last_name>Kapanen</last_name>
+          <id>010110-144N</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2006-09-10 14:00:00</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2017-02-22 22:20:01</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2017-02-22 22:21:21</edit_time>
+            <role>Korjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.29</service_event_oid>
+        <primary_data_view>
+          <name>YLE</name>
+          <description>Yleislääketiede</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>75</code>
+              <text>Suunnitelma</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>U eryt 2+, U alb 2+. Vastaanotolle 2 kk kuluttua.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.29.5</oid>
+        <status>archived</status>
+        <time>2006-11-10 12:25:32</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.15719974.10.0</owner_oid>
+          <owner_name>Terveyskeskus, TRE</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </service_producer>
+        <author>
+          <first_name>Pirkko</first_name>
+          <last_name>Kapanen</last_name>
+          <id>010110-144N</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2006-11-10 12:25:32</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2017-02-22 22:30:01</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.29</service_event_oid>
+        <primary_data_view>
+          <name>YLE</name>
+          <description>Yleislääketiede</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Päänsärkyä, RR 160/100 toistuvasti. Aloitetaan Losartan 50mg x 1. Otetaan labroja, EKG. Käynti 1 kk.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.29.4</oid>
+        <status>archived</status>
+        <time>2009-10-10 11:21:45</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.15719974.10.0</owner_oid>
+          <owner_name>Terveyskeskus, TRE</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </service_producer>
+        <author>
+          <first_name>Pirkko</first_name>
+          <last_name>Kapanen</last_name>
+          <id>010110-144N</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2009-10-10 11:21:45</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2017-02-22 22:23:52</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.29</service_event_oid>
+        <primary_data_view>
+          <name>YLE</name>
+          <description>Yleislääketiede</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>14</code>
+              <text>Esitiedot (anamneesi)</text>
+            </title>
+            <contents />
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>37</code>
+              <text>Nykytila (status)</text>
+            </title>
+            <contents />
+          </section>
+          <section>
+            <phase>preparation</phase>
+            <title>
+              <code>79</code>
+              <text>Tulosyy</text>
+            </title>
+            <contents />
+          </section>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>75</code>
+              <text>Suunnitelma</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Vointi hyvä. RR 120-150/85-95. du prot 1,2 g. Jatkaa RR-seurantaa ja ottaa tarv yhteyttä, jos RR yli 140/90.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.29.4.5.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <primarity>primary</primarity>
+                  <certainty />
+                  <permanence />
+                  <episodes />
+                  <source />
+                  <start_time>2017-02-22</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Pirkko</first_name>
+                    <last_name>Kapanen</last_name>
+                    <id>010110-144N</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.15719974.10.0</oid>
+                    <name>Terveyskeskus, TRE</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.29.6</oid>
+        <status>archived</status>
+        <time>2009-12-10 12:30:19</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.15719974.10.0</owner_oid>
+          <owner_name>Terveyskeskus, TRE</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </service_producer>
+        <author>
+          <first_name>Pirkko</first_name>
+          <last_name>Kapanen</last_name>
+          <id>010110-144N</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.15719974.10.0</oid>
+          <name>Terveyskeskus, TRE</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2009-12-10 12:30:19</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Pirkko</first_name>
+            <last_name>Kapanen</last_name>
+            <id>010110-144N</id>
+            <edit_time>2017-02-22 22:34:00</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.29</service_event_oid>
+        <primary_data_view>
+          <name>YLE</name>
+          <description>Yleislääketiede</description>
+        </primary_data_view>
+        <sections>
+          <section>
+            <phase>planning</phase>
+            <title>
+              <code>75</code>
+              <text>Suunnitelma</text>
+            </title>
+            <contents>
+              <content>
+                <type>text</type>
+                <text>
+                  <simple_text>Päänsärky vähentynyt, vointi ok. RR 150/95.
+Krea 190, U alb 2+, U eryt 2+. Nostetaan losartan 100mg x 1. Lähete nefrologille.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+      <entry>
+        <oid>1.2.246.10.15719974.14.2017.12.21</oid>
+        <status>archived</status>
+        <time>2016-02-17 10:24:21</time>
+        <release_delay_type>none</release_delay_type>
+        <registry>
+          <owner_oid>1.2.246.10.28335056.10.0</owner_oid>
+          <owner_name>Yksityinen testiorganisaatio2</owner_name>
+          <type>private_healthcare</type>
+          <extension_id />
+          <extension_name />
+        </registry>
+        <service_producer>
+          <oid>1.2.246.10.28335056.10.0</oid>
+          <name>Yksityinen testiorganisaatio2</name>
+        </service_producer>
+        <author>
+          <first_name>Risto</first_name>
+          <last_name>Salmi</last_name>
+          <id>010110-143M</id>
+        </author>
+        <organization>
+          <oid>1.2.246.10.28335056.10.1</oid>
+          <name>HUS, HKI</name>
+        </organization>
+        <editors>
+          <editor>
+            <first_name>Risto</first_name>
+            <last_name>Salmi</last_name>
+            <id>010110-143M</id>
+            <edit_time>2016-02-17 10:24:21</edit_time>
+            <role>Merkinnän tekijä</role>
+          </editor>
+          <editor>
+            <first_name>Risto</first_name>
+            <last_name>Salmi</last_name>
+            <id>010110-143M</id>
+            <edit_time>2017-02-17 10:39:28</edit_time>
+            <role>Merkinnän kirjaaja</role>
+          </editor>
+          <editor>
+            <first_name>Isak</first_name>
+            <last_name>Ekholm</last_name>
+            <id>070707-0707</id>
+            <edit_time>2017-04-11 09:44:33</edit_time>
+            <role>Korjaaja</role>
+          </editor>
+        </editors>
+        <patient>
+          <id_type>permanent</id_type>
+          <id>060660-9860</id>
+          <date_of_birth>1960-06-06</date_of_birth>
+          <gender>female</gender>
+          <first_name>Varpu</first_name>
+          <friendly_name>Varpu</friendly_name>
+          <last_name>Munuainen</last_name>
+          <is_dead>0</is_dead>
+          <preferred_language>fi</preferred_language>
+          <address />
+        </patient>
+        <service_event_oid>1.2.246.10.15719974.14.2017.12</service_event_oid>
+        <primary_data_view>
+          <name>YLE</name>
+          <description>Yleislääketiede</description>
+        </primary_data_view>
+        <secondary_data_views>
+          <secondary_data_view>
+            <name>YHT</name>
+            <description>Yhteenveto</description>
+          </secondary_data_view>
+        </secondary_data_views>
+        <sections>
+          <section>
+            <phase>execution</phase>
+            <title>
+              <code>51</code>
+              <text>Toimenpiteet</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.12.21.5.2</oid>
+                <type>treatment</type>
+                <treatment>
+                  <operation_name>Munuaisen siirto kuolleelta luovuttajalta</operation_name>
+                  <code>
+                    <type>treatment</type>
+                    <code>KAS10</code>
+                    <name>Munuaisen siirto kuolleelta luovuttajalta</name>
+                  </code>
+                  <primarity>primary</primarity>
+                  <additional_codes />
+                  <operating_persons>
+                    <operating_person>
+                      <author>
+                        <first_name>Risto</first_name>
+                        <last_name>Salmi</last_name>
+                        <reg_number />
+                        <id>010110-143M</id>
+                      </author>
+                      <organization>
+                        <oid>1.2.246.10.28335056.10.1</oid>
+                        <name>HUS, HKI</name>
+                      </organization>
+                      <role>primary</role>
+                    </operating_person>
+                  </operating_persons>
+                  <time>2016-02-17</time>
+                  <state>performed</state>
+                  <action_report>Luovuttajan oikea munuainen. Viilto vasemmalle alavatsalle. </action_report>
+                </treatment>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>13</code>
+              <text>Diagnoosi</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.12.21.1.2</oid>
+                <type>diagnosis</type>
+                <diagnosis>
+                  <code>
+                    <type>icd10</type>
+                    <code>Z94.0</code>
+                    <name>Aikaisemmin tehty munuaisensiirto</name>
+                  </code>
+                  <name>Aikaisemmin tehty munuaisensiirto</name>
+                  <primarity>primary</primarity>
+                  <certainty />
+                  <permanence>permanent</permanence>
+                  <episodes>
+                    <episode>
+                      <oid>1.2.246.10.15719974.14.2017.13</oid>
+                      <name>Aikaisemmin tehty munuaisensiirto</name>
+                    </episode>
+                  </episodes>
+                  <source />
+                  <start_time>2016-02-17</start_time>
+                  <end_time />
+                  <author>
+                    <first_name>Risto</first_name>
+                    <last_name>Salmi</last_name>
+                    <id>010110-143M</id>
+                  </author>
+                  <author_organization>
+                    <oid>1.2.246.10.28335056.10.1</oid>
+                    <name>HUS, HKI</name>
+                  </author_organization>
+                  <conclusion_author />
+                  <conclusion_author_organization />
+                  <conclusion_reason />
+                </diagnosis>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>65</code>
+              <text>Hoidon syy</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.12.21.2.1</oid>
+                <type>text</type>
+                <text>
+                  <simple_text>Tulee munuaissiirtoon.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>23</code>
+              <text>Jatkohoidon järjestämistä koskevat tiedot</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.12.21.3.1</oid>
+                <type>text</type>
+                <text>
+                  <simple_text>Siirtyy tänään Taysiin, jossa jatkohoito.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+          <section>
+            <phase>evaluation</phase>
+            <title>
+              <code>29</code>
+              <text>Loppuarvio (epikriisi)</text>
+            </title>
+            <contents>
+              <content>
+                <oid>1.2.246.10.15719974.14.2017.12.21.4.1</oid>
+                <type>text</type>
+                <text>
+                  <simple_text>55-vuotias nainen, jolla diagnosoitu IgAGN v. 2010.  PD-hoito aloitettu 5/2015. Tarjoutuu ristikoenegatiivinen munuainen aivokuolleelta luovuttajalta, Mismatch 1/1, CMV D+/R+. Otsikon mukainen toimenpide 17.2.2016. Diureesi käynnistyy jo leikkauspöydällä, eikä dialyysihoitoa tarvita. Toipuminen etenee odotetusti. HUS:sta siirtovaiheessa krea on 125.</simple_text>
+                </text>
+              </content>
+            </contents>
+          </section>
+        </sections>
+      </entry>
+    </entries>
+  </get_entries>
+</response>

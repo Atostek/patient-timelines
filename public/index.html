@@ -1,0 +1,72 @@
+﻿<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
+        <title>UNA PoC</title>
+	</head>
+    <body>
+        <div class="container">
+            <h3>Kirjautuminen eRAan</h3>
+            <iframe id="loginForm" src="eRA_login_form.html"></iframe>
+            <h3>Näkymät</h3>
+            <ul class="nav nav-tabs mb-2">
+                <li class="nav-item">
+                    <a class="nav-link active disabled" data-toggle="tab" role="tab" href="#timeline">Aikajana</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" data-toggle="tab" role="tab" href="#multiailment">MOSA-tunnistin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" data-toggle="tab" role="tab" href="#snapshot">Tilannekuva</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="timeline" class="tab-pane active fade show" role="tabpanel">
+                    <h3>Aikajananäkymä</h3>
+                    <iframe id="timelineForm" src="eRA_timeline_form.html"></iframe>
+                </div>
+                <div id="multiailment" class="tab-pane fade" role="tabpanel">
+                    <h3>MOSA-tunnistusnäkymä</h3>
+                    <iframe id="multiailmentForm" src="eRA_multiailment_form.html"></iframe>
+                </div>
+                <div id="snapshot" class="tab-pane fade" role="tabpanel">
+                    <h3>Tilannekuvanäkymä</h3>
+                    <iframe id="snapshotForm" src="eRA_data_form.html"></iframe>
+                </div>
+            </div>
+        </div>
+        <script>
+            function dataReady(data) {
+                $(".disabled").removeClass("disabled");
+
+                var multiailmentForm = document.getElementById("multiailmentForm");
+                multiailmentForm.contentWindow.postMessage(data, document.documentURI);
+
+                var snapshotForm = document.getElementById("snapshotForm");
+                snapshotForm.contentWindow.postMessage(data, document.documentURI);
+            }
+
+            function receiveMessage(event) {
+                if(event.data.event == "data_ready")
+                {
+                    dataReady(event.data.data);
+                }
+ 
+                else if (event.data.event == "test_use") {
+                    $("a.nav-link:first").trigger("click");
+                    $(".nav-link").addClass("disabled");
+                }
+            }
+
+            $(document).ready(function () {
+                window.addEventListener("message", receiveMessage, false);
+            });
+
+        </script>
+	</body>
+</html>
