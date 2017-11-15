@@ -45,10 +45,10 @@
                 $(".disabled").removeClass("disabled");
 
                 var multiailmentForm = document.getElementById("multiailmentForm");
-                multiailmentForm.contentWindow.postMessage(data, document.documentURI);
+                multiailmentForm.contentWindow.postMessage(data, document.URL);
 
                 var snapshotForm = document.getElementById("snapshotForm");
-                snapshotForm.contentWindow.postMessage(data, document.documentURI);
+                snapshotForm.contentWindow.postMessage(data, document.URL);
             }
 
             function receiveMessage(event) {

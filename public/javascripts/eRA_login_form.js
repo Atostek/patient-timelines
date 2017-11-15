@@ -276,8 +276,8 @@ $("#closePatientButton").click(function () {
 $("#testUseButton").click(function () {
     var timeline = parent.document.getElementById("timelineForm");
 
-    parent.postMessage({ event: "test_use" }, document.documentURI);
-    timeline.contentWindow.postMessage({ event: "test_use" }, document.documentURI);  
+    parent.postMessage({ event: "test_use" }, document.URL);
+    timeline.contentWindow.postMessage({ event: "test_use" }, document.URL);  
 });
 
 /********************************
@@ -343,7 +343,7 @@ function openPatient() {
 					event: "patient_open",
 					sessionId: sessionId,
 					contextId: contextId
-				}, document.documentURI);
+				}, document.URL);
 		},
 		error: function (jqXHR, textStatus, errorThrown) {
 

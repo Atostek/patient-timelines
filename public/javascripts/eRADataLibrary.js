@@ -378,16 +378,16 @@ eRAData.translateTerm = function (term) {
 
     switch (term) {
         case "probable_or_definite":
-            translation = "Todenn‰kˆinen tai varma";
+            translation = "Todenn√§k√∂inen tai varma";
             break;
         case "suspect":
-            translation = "Ep‰ilty";
+            translation = "Ep√§ilty";
             break;
         case "temporary":
-            translation = "V‰liaikainen";
+            translation = "V√§liaikainen";
             break;
         case "permanent":
-            translation = "Pysyv‰";
+            translation = "Pysyv√§";
             break;
         case "primary":
             translation = "Ensisijainen";
@@ -501,7 +501,7 @@ eRAData.parseContentData = function (currentContent, displayContent) {
         switch (displayContent.type) {
             case "text":
                 displayContent.displayText = currentContent.getElementsByTagName("simple_text")[0].childNodes[0].nodeValue;
-                displayContent.title = "Merkint‰";
+                displayContent.title = "Merkint√§";
                 displayContent.column = "text";
                 break;
             case "treatment":
@@ -548,7 +548,7 @@ eRAData.parseContentData = function (currentContent, displayContent) {
                 break;
             case "medication":
                 displayContent.displayText = currentContent.getElementsByTagName("drug_name")[0].childNodes[0].nodeValue;
-                displayContent.title = "L‰‰kitys";
+                displayContent.title = "L√§√§kitys";
                 displayContent.column = "medication";
                 displayContent.details = parseMedicationDetails(currentContent);
                 break;
@@ -768,5 +768,5 @@ function onDataReady(data) {
     window.parent.postMessage({
         event: "data_ready",
         data: data
-    }, window.parent.document.documentURI);
+    }, window.parent.document.URL);
 }
